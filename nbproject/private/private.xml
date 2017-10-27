@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/composer.lock</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/config/modules.config.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/config/autoload/development.local.php.dist</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/module/Application/config/module.config.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/config/application.config.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/module/Album/src/Model/Album.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/config/autoload/development.local.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/config/development.config.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/module/Album/config/module.config.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/config/development.config.php.dist</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/config/autoload/local.php.dist</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/module/Album/src/Model/AlbumTable.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/module/Album/test/Model/AlbumTableTest.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/config/autoload/global.php</file>
+            <file>file:/Applications/MAMP/htdocs/projectZ3/module/Album/src/Module.php</file>
+        </group>
+    </open-files>
+</project-private>
