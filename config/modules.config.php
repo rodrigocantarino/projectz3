@@ -31,5 +31,6 @@ return [
     'Application',
     // Turorial Aplicação
     'Album',
+    'Blog',
     // Minha Aplicação
 ];
