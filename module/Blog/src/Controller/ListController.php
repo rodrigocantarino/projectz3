@@ -11,20 +11,20 @@ class ListController extends AbstractActionController {
      */
     private $postRepository;
     
-        public function __construct(PostRepositoryInterface $postRepository)
-        {
-            $this->postRepository = $postRepository;
-        }
+    public function __construct(PostRepositoryInterface $postRepository)
+    {
+        $this->postRepository = $postRepository;
+    }
 
-        public function indexAction()
-        {
-            // Retorno explícito ViewModel:
-            return new ViewModel([ 'posts' => $this->postRepository->findAllPosts(), ]);
-            return new ViewModel([ 'posts' => $this->postRepository->findAllPosts(), ]);
-            
-            // Retorno implícito ViewModel:
-            //return [ 'posts' => $this->postRepository->findAllPosts(), ];
+    public function indexAction()
+    {
+        // Retorno explícito ViewModel:
+        return new ViewModel([ 'posts' => $this->postRepository->findAllPosts(), ]);
+        return new ViewModel([ 'posts' => $this->postRepository->findAllPosts(), ]);
+        
+        // Retorno implícito ViewModel:
+        //return [ 'posts' => $this->postRepository->findAllPosts(), ];
 
-        }
+    }
 
 }
