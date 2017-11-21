@@ -3,6 +3,7 @@
 namespace Blog;
 
 use Zend\Router\Http\Literal;
+use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
@@ -22,6 +23,7 @@ return [
             Controller\ListController::class => Factory\ListControllerFactory::class,
         ],
     ],
+    /*
     // This lines opens the configuration for the RouteManager
     'router' => [
         // Open configuration for all possible routes
@@ -39,6 +41,36 @@ return [
                     'defaults' => [
                         'controller' => Controller\ListController::class,
                         'action'     => 'index',
+                    ],
+                ],
+            ],
+        ],
+    ],
+    */
+    'router'          => [
+        'routes' => [
+            'blog' => [
+                'type' => Literal::class,
+                'options' => [
+                    'route'    => '/blog',
+                    'defaults' => [
+                        'controller' => Controller\ListController::class,
+                        'action'     => 'index',
+                    ],
+                ],
+                'may_terminate' => true,
+                'child_routes'  => [
+                    'detail' => [
+                        'type' => Segment::class,
+                        'options' => [
+                            'route'    => '/:id',
+                            'defaults' => [
+                                'action' => 'detail',
+                            ],
+                            'constraints' => [
+                                'id' => '[1-9]\d*',
+                            ],
+                        ],
                     ],
                 ],
             ],

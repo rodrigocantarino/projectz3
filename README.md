@@ -1,12 +1,12 @@
 # Projectz3 - Tutorial Zend3
 
-My Repository for Zend 3 studies
+My Repository for Zend Framework 3 studies
 
 Following the Tutorial from ZendFramework documentation
 
 https://docs.zendframework.com/tutorials/
 
-# Patterns used by ZENDFramework 3 that should be studied for a better understanding of the Framework:
+# Patterns used by ZEND Framework 3 that should be studied for a better understanding of the Framework:
 
 - Design Patterns
 - MVC
@@ -92,3 +92,26 @@ https://docs.zendframework.com/tutorials/
 - - Writing the repository implementation
 - - Refactoring hidden dependencies
 - - Finishing the repository
+
+- Understanding the Router
+- - Different route types
+- - - Literal routes
+- - - Segment routes
+- - Different routing concepts
+- - - Generic routes
+- - - Basic routing
+- - - Child routes
+- - A practical example for our blog module
+
+
+
+
+
+
+
+
+
+
+
+
+
