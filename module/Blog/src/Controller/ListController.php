@@ -22,7 +22,7 @@ class ListController extends AbstractActionController {
     {
         // Retorno explícito ViewModel:
         return new ViewModel([ 'posts' => $this->postRepository->findAllPosts(), ]);
-        return new ViewModel([ 'posts' => $this->postRepository->findAllPosts(), ]);
+        //return new ViewModel([ 'posts' => $this->postRepository->findAllPosts(), ]);
         
         // Retorno implícito ViewModel:
         //return [ 'posts' => $this->postRepository->findAllPosts(), ];

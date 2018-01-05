@@ -17,8 +17,8 @@
 $dbname = 'project_z3';
 $host   = 'localhost';
 $port   = '3306';
-//$dsnMySQL = 'mysql:dbname='.$dbname.';host='.$host.';port='.$port;
 $dsnMySQL = 'mysql:dbname='.$dbname.';host='.$host.';';
+//$dsnMySQL = 'mysql:dbname='.$dbname.';host='.$host.';port='.$port;
 
 // MySQL
 return [    
